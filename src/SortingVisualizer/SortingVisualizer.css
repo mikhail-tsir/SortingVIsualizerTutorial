@@ -1,0 +1,21 @@
+.array-container {
+    /*position: absolute;
+    left: 100px;
+    margin: auto;
+    width: 100%;
+    bottom: 10%;*/
+    margin: auto;
+    width: 90%;
+    bottom: 50px;
+}
+.array-bar {
+    width: 2px;
+    background-color: plum;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+button {
+    position: relative;
+    color: purple;
+}

@@ -1,21 +1,17 @@
 .array-container {
-    /*position: absolute;
-    left: 100px;
+    position: absolute;
     margin: auto;
     width: 100%;
-    bottom: 10%;*/
-    margin: auto;
-    width: 90%;
-    bottom: 50px;
+    height: 91%;
+    bottom: 100px;
+    border: 1px solid black;
 }
+
 .array-bar {
+    position: -webkit-sticky;
     width: 2px;
     background-color: plum;
     display: inline-block;
-    margin: 0 1px;
+    margin: 0px 1px;
 }
 
-button {
-    position: relative;
-    color: purple;
-}

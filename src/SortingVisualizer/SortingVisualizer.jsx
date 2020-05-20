@@ -16,9 +16,12 @@ export default class SortingVisualizer extends React.Component {
     }
 
     render () {
-        const {array} = this.props;
+        const {array, height} = this.props;
         return (
-            <div className="array-container">
+            <div
+            className="array-container"
+            style={{bottom: `10px`,
+                    top: `5px`}}>
             {array.map((value, idx) => (
                 <div
                 className="array-bar"

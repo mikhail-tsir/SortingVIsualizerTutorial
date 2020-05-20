@@ -39,7 +39,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <SortingVisualizer array={this.state.array}></SortingVisualizer>
+        <SortingVisualizer
+        array={this.state.array}
+        height={BAR_HEIGHT}></SortingVisualizer>
         <Toolbar resetFunc={this.resetArray}></Toolbar>
       </div>
     );
